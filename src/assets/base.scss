@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.ft-l{
+    float: left;
+}
+.ft-r{
+    float: right;
+}
+ul,dl,ol,li,dd,dl{
+    list-style: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}

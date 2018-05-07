@@ -1,0 +1,37 @@
+.header{
+    color           : #fff;
+    padding         : 0 30px;
+    box-sizing: border-box;
+    height          : 70px;
+    line-height     : 70px;
+    position        : relative;
+    z-index         : 10;
+    background-color: #222d32;
+    .container{
+        padding: 0;
+    }
+    .logo,.menu{
+        float: left;
+    }
+    .logo{
+        width: 200px;
+    }
+    .content{
+        margin-left: 20px;
+    }
+    .menu{
+
+    }
+    .logout,
+    .message{
+        float: right;
+    }
+
+    .link{
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+}
+
